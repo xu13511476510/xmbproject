@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\classes.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\menu\\classes.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\school.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\menu\\school.xml"
+    }
+]

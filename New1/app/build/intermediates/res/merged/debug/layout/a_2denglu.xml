@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b10">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/forgetpassword"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:layout_alignEnd="@+id/inputpassword"
+            android:layout_alignRight="@+id/inputpassword"
+            android:layout_below="@+id/denglu"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:text="忘记密码"
+            android:textColor="#a9a9a9"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/denglu"
+            app:layout_constraintVertical_bias="0.073" />
+
+        <EditText
+            android:id="@+id/inputphone"
+            android:layout_width="296dp"
+            android:layout_height="42dp"
+            android:layout_alignBottom="@+id/imageView17"
+            android:layout_alignLeft="@+id/textView28"
+            android:layout_alignStart="@+id/textView28"
+            android:hint="  请 输 入 手 机 号"
+            android:inputType="number"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="15dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:maxLength="11"/>
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/inputpassword"
+            android:layout_marginBottom="8dp"
+            android:layout_toLeftOf="@+id/inputpassword"
+            android:layout_toStartOf="@+id/inputpassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17"
+            app:layout_constraintVertical_bias="0.063"
+            app:srcCompat="@mipmap/iconpssword" />
+
+        <EditText
+            android:id="@+id/inputpassword"
+            android:layout_width="296dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/inputphone"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView17"
+            android:layout_toRightOf="@+id/imageView17"
+            android:hint="  请 输 入 密 码"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="15dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:maxLength="20"/>
+
+        <Button
+            android:id="@+id/newuser_zhuce"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:text="新用户注册"
+            android:textColor="#a9a9a9"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/denglu"
+            app:layout_constraintVertical_bias="0.07"
+            android:layout_alignBaseline="@+id/forgetpassword"
+            android:layout_alignBottom="@+id/forgetpassword"
+            android:layout_alignLeft="@+id/inputpassword"
+            android:layout_alignStart="@+id/inputpassword" />
+
+
+
+        <Button
+            android:id="@+id/denglu"
+            android:layout_width="305dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/inputpassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/button_shape"
+            android:text="登     陆"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="278dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/imageView38"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#ff3366"
+            android:textSize="15dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+
+
+            android:layout_below="@+id/textView28"
+            android:layout_marginTop="42dp"
+            android:layout_toLeftOf="@+id/inputphone"
+            android:layout_toStartOf="@+id/inputphone"
+            app:srcCompat="@mipmap/iconusername" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background7"
+    android:weightSum="1">
+  <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personalcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"/>
+    <LinearLayout
+        android:id="@+id/title_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:elevation="2dp">
+
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_weight="10"
+            android:layout_height="42dp"
+            android:textColor="#c5c6c6"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:iconifiedByDefault="false"
+            android:hint="搜索项目名称或项目id"
+            android:textColorHint="#c5c6c6"
+            android:queryHint="搜索项目名称"
+            android:maxLength="20"/>
+
+
+        <TextView
+            android:id="@+id/jiedan"
+            android:text="搜索"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#ffffff"
+        android:layout_gravity="center">
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:layout_weight="1.00" />
+    <View style="@style/bg_line"/>
+
+    <com.bianlaoshi.new1.StudentBottom
+        android:id="@+id/titleLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>

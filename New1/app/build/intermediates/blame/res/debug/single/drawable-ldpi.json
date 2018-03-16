@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_home_black_24dp.png",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
+    }
+]

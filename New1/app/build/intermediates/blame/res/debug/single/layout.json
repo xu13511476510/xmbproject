@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottomtitle.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\bottomtitle.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_projmemitem.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_projmemitem.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\a_3zhaohuimima.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\a_3zhaohuimima.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_3discovery_teacher.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_3discovery_teacher.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\amountview.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\amountview.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_13gerenziliao1.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_13gerenziliao1.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_xiangmuchengyuan.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_xiangmuchengyuan.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_bottom.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_bottom.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_11self_review.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_11self_review.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_2dianjixiangmu.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_2dianjixiangmu.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_item.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_13xitongxiaoxi.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_13xitongxiaoxi.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_8gerenziliao.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_8gerenziliao.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\divider.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\divider.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_item.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\divider1.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\divider1.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stu_item_of_find.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\stu_item_of_find.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_12item.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_12item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\divider3.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\divider3.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\m_item.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\m_item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_yaoqingstuitem.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_yaoqingstuitem.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_9review_student.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_9review_student.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_10pingjiaxuesheng.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_10pingjiaxuesheng.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_6item.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_6item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_5xiangmuxiangqing1.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_5xiangmuxiangqing1.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_12yaoqingxuesheng.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_12yaoqingxuesheng.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_6mine_teacher.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_6mine_teacher.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\a_2denglu.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\a_2denglu.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_1shouye.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_1shouye.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottomtitlez.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\bottomtitlez.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stu_recycleview_of_find.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\stu_recycleview_of_find.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_7discovery.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_7discovery.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\divider4.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\divider4.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_7discovery_search.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_7discovery_search.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_6shouye1.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_6shouye1.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_10review_teacher.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_10review_teacher.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_8wode.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_8wode.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x_14yaoqingpingjia.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\x_14yaoqingpingjia.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_5fabuxiangmu.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\l_5fabuxiangmu.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\a_4zhuce.xml",
+        "source": "E:\\ANDROIDPROJECT\\New1\\app\\src\\main\\res\\layout\\a_4zhuce.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\ANDROIDPROJECT\\New1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "G:\\Android_SDK\\.android\\build-cache\\046ff240d60b111e51f6a0dc88d40f189ec71a36\\output\\res\\layout\\notification_template_lines_media.xml"
+    }
+]

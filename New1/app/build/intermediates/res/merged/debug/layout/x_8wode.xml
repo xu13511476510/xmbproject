@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/b_layout_relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@drawable/headerbackground3">
+
+        <TextView
+            android:id="@+id/personalcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:gravity="center"
+            android:text="我  的"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/personalcenter"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@mipmap/remind"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+
+    <View style="@style/bg_line"
+        android:id="@+id/v1"
+        android:layout_below="@+id/b_layout_relativelayout"
+        android:background="@drawable/gardlient_background_ltor"
+        android:layout_height="8px"/>
+    <LinearLayout
+        android:id="@+id/layout_touxiang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+    </LinearLayout>
+
+        <LinearLayout style="@style/wrap_layout"
+            android:layout_below="@+id/layout_touxiang"
+            android:layout_marginTop="40dp"
+            android:id="@+id/linearLayout">
+            <!-- 上圆角-->
+
+            <LinearLayout
+                style="@style/top_layout"
+                android:id="@+id/mine_information"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/usertext"
+                    android:text="个人资料"
+                    android:textSize="15dp"/>
+                <ImageView style="@style/img_arrow"/>
+
+            </LinearLayout>
+
+            <!-- 分割线 -->
+            <View style="@style/bg_line"
+                />
+
+            <LinearLayout style="@style/mid_layout"
+                android:id="@+id/yaoqingpingjia">
+                <TextView
+                    android:id="@+id/myreview"
+                    style="@style/usertext"
+                    android:text="邀请评价"
+                    android:textSize="15dp"/>
+                <ImageView style="@style/img_arrow"/>
+            </LinearLayout>
+
+            <View style="@style/bg_line"
+                />
+
+            <LinearLayout style="@style/mid_layout"
+                android:id="@+id/ziwopingjia">
+                <TextView
+                    android:id="@+id/myreview_1"
+                    style="@style/usertext"
+                    android:text="自我评价"
+                    android:textSize="15dp"/>
+                <ImageView style="@style/img_arrow"/>
+            </LinearLayout>
+
+            <View style="@style/bg_line"
+                />
+
+            <LinearLayout style="@style/mid_layout"
+                android:id="@+id/pjls">
+                <TextView
+                    android:id="@+id/pingjialaoshi"
+                    style="@style/usertext"
+                    android:text="评价老师"
+                    android:textSize="15dp"/>
+                <ImageView style="@style/img_arrow"/>
+            </LinearLayout>
+            <View style="@style/bg_line"/>
+            <View style="@style/bg_line"/>
+
+
+
+        </LinearLayout>
+    <TextView
+        android:id="@+id/tishi"
+        android:text="请您完善资料，便于老师检索"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:maxLength="15"
+        android:minLines="3"
+        android:ellipsize="end"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+    <com.bianlaoshi.new1.StudentBottom
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/titleLayout2" />
+
+</RelativeLayout>

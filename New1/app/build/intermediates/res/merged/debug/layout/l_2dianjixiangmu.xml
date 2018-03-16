@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="申请列表"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@+id/view8"
+            android:layout_toEndOf="@+id/imageView23"
+            android:layout_toRightOf="@+id/imageView23"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/view4"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView50"
+            android:layout_alignStart="@+id/textView50"
+            android:layout_below="@+id/view8"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="姓名："
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/view2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView23"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            app:srcCompat="@mipmap/icon" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/imageView21"
+            android:layout_alignStart="@+id/imageView21"
+            android:layout_alignTop="@+id/imageView23"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@mipmap/headphoto" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_alignTop="@+id/imageView22"
+            android:gravity="center"
+            android:text="姓名："
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/button7"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView50"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="拒绝"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/textView50"
+            android:layout_alignTop="@+id/textView50"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_toLeftOf="@+id/button6"
+            android:layout_toStartOf="@+id/button6"
+            android:background="@drawable/button_shape"
+            android:text="同意"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_toEndOf="@+id/button7"
+            android:layout_toRightOf="@+id/button7"
+            android:background="@drawable/button_shape"
+            android:layout_alignTop="@+id/textView49"
+            android:text="拒绝"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/textView49"
+            android:layout_alignLeft="@+id/button7"
+            android:layout_alignStart="@+id/button7"
+            android:layout_alignTop="@+id/textView49"
+            android:background="@drawable/button_shape"
+            android:text="同意"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/textView26"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="申请人数__/___"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView18"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/button_shape"
+
+            android:text="结束招人"
+            android:textColor="#004b97"
+            android:textSize="22dp" />
+
+        <View
+            android:id="@+id/view8"
+            style="@style/bg_line"
+            android:layout_height="8dp"
+            android:layout_below="@+id/imageView23"
+            android:background="@drawable/gardlient_background_ltor" />
+
+        <View
+            android:id="@+id/view2"
+            style="@style/bg_line"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_below="@+id/imageView18"
+            android:background="@drawable/gardlient_background_ltor" />
+
+        <View
+            android:id="@+id/view3"
+            style="@style/bg_line"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_below="@+id/textView26"
+            android:background="@drawable/gardlient_background_ltor" />
+
+        <View
+            android:id="@+id/view4"
+            style="@style/bg_line"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_below="@+id/textView51"
+            android:background="@drawable/gardlient_background_ltor" />
+    </RelativeLayout>
+</LinearLayout>

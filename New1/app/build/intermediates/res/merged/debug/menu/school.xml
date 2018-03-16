@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/hnu"
+        android:title="湖南大学"/>
+
+    <item
+        android:id="@+id/zhongnan"
+        android:title="中南大学"
+        />
+
+    <item
+        android:id="@+id/shida"
+        android:title="湖南师范大学"/>
+
+    <item
+        android:id="@+id/huake"
+        android:title="华中科技大学"/>
+
+</menu>

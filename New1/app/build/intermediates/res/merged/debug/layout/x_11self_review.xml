@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/a10">
+    <RelativeLayout
+        android:id="@+id/title_review_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personalcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="自我评价"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/divider0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        android:layout_below="@+id/title_review_self"/>
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/review"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/textview_1"
+        android:layout_alignStart="@+id/textview_1"
+        android:layout_below="@+id/textview_1"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/textview_shape"
+        android:gravity="top"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:maxLength="20"/>
+
+    <TextView
+        android:id="@+id/textview_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我在项目里面的主要职责："
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/divider"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        android:layout_below="@+id/review"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我对自己的评价以及感悟："
+        android:layout_marginTop="44dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/review"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/rerview_1"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/textview_shape"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textview_2"
+        android:layout_alignRight="@+id/review"
+        android:layout_alignEnd="@+id/review"
+        android:textSize="15dp"
+        android:maxLength="50"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="发 表 评 价"
+        android:textSize="20dp"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="bottom"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="项目名"
+        android:layout_below="@+id/divider0"
+        android:layout_alignLeft="@+id/textview_1"
+        android:layout_alignStart="@+id/textview_1" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider0"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/textView29"
+        android:layout_toRightOf="@+id/textView29"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="输入项目名"
+        android:textColorHint="#a9a9a9"
+        android:textColor="#ffffff"
+        android:maxLength="20"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/rerview_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="注意：每一项都必填！"
+        android:textColor="#ffffff">
+    </TextView>
+</RelativeLayout>

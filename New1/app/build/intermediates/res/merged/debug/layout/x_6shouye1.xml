@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/headerbackground">
+
+        <TextView
+            android:id="@+id/personalcenter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="评价"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/title_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp">
+
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#f4f4f4"
+            android:gravity="center_vertical"
+            android:text="   曾参与的项目及评价"
+            android:textColor="#1d1d26"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_below="@+id/textView43"
+        android:layout_gravity="center">
+    </TextView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:clipToPadding="false"
+        android:layout_below="@+id/textView43"/>
+    <View style="@style/bg_line"/>
+
+    <com.bianlaoshi.new1.StudentBottom
+        android:id="@+id/titleLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>
