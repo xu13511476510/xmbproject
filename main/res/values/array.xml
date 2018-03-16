@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>默认</item>
+        <item>湖南大学</item>
+        <item>中南大学</item>
+        <item>湖南师大</item>
+    </string-array>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/b_layout_relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@drawable/headerbackground3">
+
+        <TextView
+            android:id="@+id/personalcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:gravity="center"
+            android:text="我  的"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@mipmap/remind"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginEnd="9dp" />
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout style="@style/wrap_layout"
+        android:layout_marginTop="40dp">
+        <!-- 上圆角-->
+
+        <LinearLayout
+            style="@style/top_layout"
+            android:id="@+id/mine_information1"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                style="@style/usertext"
+                android:text="个人资料"
+                android:textSize="20dp"/>
+            <ImageView style="@style/img_arrow"/>
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View style="@style/bg_line"/>
+
+        <LinearLayout style="@style/mid_layout"
+            android:id="@+id/myreview1">
+            <TextView
+                android:id="@+id/myreview"
+                style="@style/usertext"
+                android:text="评价学生"
+                android:textSize="20dp"/>
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <View style="@style/bg_line"/>
+
+
+        <View style="@style/bg_line"/>
+
+        <!-- 下圆角-->
+
+    </LinearLayout>
+    <com.bianlaoshi.new1.TeacherBottom
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/titleLayout2" />
+</LinearLayout>

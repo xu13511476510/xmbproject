@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/headerbackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="评价学生"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@+id/layout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+                <ImageView
+                    android:id="@+id/imagephone"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/phone"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学生手机号:"
+                    android:textColor="#848484"
+                    android:textSize="16dp"
+                    android:layout_toRightOf="@+id/imagephone"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textColor="#1d1d26"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/textView42"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imagephone"
+                    android:background="@null"
+                    android:hint="请输入手机号"
+                    android:textColorHint="#c5c6c6"
+                    android:maxLength="11"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+                <ImageView
+                    android:id="@+id/imagepname"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/project"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目名:"
+                    android:textColor="#848484"
+                    android:textSize="16dp"
+                    android:layout_toRightOf="@+id/imagepname"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/editText12"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textShortMessage"
+                    android:textColor="#1d1d26"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/textView45"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imagepname"
+                    android:background="@null"
+                    android:hint="请输入项目名称"
+                    android:textColorHint="#c5c6c6"
+                    android:maxLength="20"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imagerank"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/rank"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="评定等级:"
+                    android:textColor="#848484"
+                    android:textSize="16dp"
+                    android:layout_toRightOf="@+id/imagerank"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"/>
+
+                <com.bianlaoshi.new1.AmountView
+                    android:id="@+id/rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/textView44"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/imagetag"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/duty"
+                android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职责："
+                    android:textColor="#848484"
+                    android:textSize="16dp"
+                    android:layout_toRightOf="@+id/imagetag"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/editText14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textShortMessage"
+                    android:textColor="#1d1d26"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/textView55"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imagetag"
+                    android:background="@null"
+                    android:hint="请输入在本项目中的职责"
+                    android:textColorHint="#c5c6c6"
+                    android:maxLength="20"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/imagereview"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/comments"
+                android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="评价："
+                    android:textColor="#848484"
+                    android:textSize="16dp"
+                    android:layout_toRightOf="@+id/imagereview"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textShortMessage"
+                    android:textColor="#1d1d26"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/textView59"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/imagereview"
+                    android:background="@null"
+                    android:hint="请输入对学生的评价"
+                    android:textColorHint="#c5c6c6"
+                    android:maxLength="50"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/button_shape"
+        android:text="提    交" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:text="注意：每一项都必填！" />
+</RelativeLayout>

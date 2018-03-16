@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background5"
+    >
+    <RelativeLayout
+        android:id="@+id/title_review_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personalcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="评价老师"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/divider"
+        android:layout_below="@+id/title_review_teacher"
+        android:id="@+id/imageView45" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider"
+        android:layout_below="@+id/editText13"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title_review_teacher"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="29dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="老师手机号：" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="#ffffff"
+        android:textColorHint="#a7a1a1"
+        android:hint="请输入老师手机号"
+        android:background="@null"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:maxLength="11"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="满意度:"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+         />
+    <RatingBar
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        style="@style/fiveRatingBar"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_below="@+id/star"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="注意：每一项都必填！"
+        android:textColor="#ffffff">
+    </TextView>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/star"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_shape"
+        android:text="提   交"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

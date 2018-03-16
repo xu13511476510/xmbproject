@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b7">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/shoujihaoma"
+            android:layout_width="167dp"
+            android:layout_height="42dp"
+            android:layout_alignEnd="@+id/imageView65"
+            android:layout_alignRight="@+id/imageView65"
+            android:layout_below="@+id/shoujihaoma1"
+            android:textColor="#ffffff"
+            android:maxLength="11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/yanzhengma1"
+            android:layout_width="242dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/shoujihaoma"
+            android:layout_alignStart="@+id/shoujihaoma"
+            android:layout_below="@+id/shoujihaoma"
+            android:gravity="center_vertical"
+            android:text="验证码："
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintHorizontal_bias="0.063"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/querenpassword"
+            android:layout_width="242dp"
+            android:layout_height="29dp"
+            android:layout_alignLeft="@+id/shezhimima"
+            android:layout_alignStart="@+id/shezhimima"
+            android:layout_below="@+id/shezhimima"
+            android:gravity="center_vertical"
+            android:text="确认密码："
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/lsbuttonzhuce"
+            android:layout_width="206dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/button_shape"
+            android:text="重置密码"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/shezhimima"
+            android:layout_width="292dp"
+            android:layout_height="42dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:maxLength="20"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView66"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/imageView65"
+            android:layout_alignLeft="@+id/imageView65"
+            android:layout_alignStart="@+id/imageView65"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/iconzhanghu" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_above="@+id/yanzhengma1"
+            android:layout_alignEnd="@+id/shezhimima"
+            android:layout_alignRight="@+id/shezhimima"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/getyanzhengma" />
+
+        <EditText
+            android:id="@+id/querenmima"
+            android:layout_width="292dp"
+            android:layout_height="39dp"
+            android:layout_below="@+id/querenpassword"
+            android:layout_toEndOf="@+id/imageView64"
+            android:layout_toRightOf="@+id/imageView64"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:maxLength="20"
+            app:layout_constraintHorizontal_bias="0.826"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_alignTop="@+id/shoujihaoma1"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_toLeftOf="@+id/shoujihaoma1"
+            android:layout_toStartOf="@+id/shoujihaoma1"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/iconphone" />
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="32dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/shezhimima"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/yanzhengma"
+            android:layout_toStartOf="@+id/yanzhengma"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/passwordbai" />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/shoujihaoma"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="19dp"
+            android:layout_toLeftOf="@+id/yanzhengma1"
+            android:layout_toStartOf="@+id/yanzhengma1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/iconyanzheng" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:text="找回密码"
+            android:textColor="#ffffff"
+            android:textSize="27dp"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/shoujihaoma1"
+            android:layout_width="225dp"
+            android:layout_height="35dp"
+
+            android:layout_below="@+id/imageView66"
+            android:layout_toEndOf="@+id/imageView61"
+            android:layout_toRightOf="@+id/imageView61"
+            android:gravity="center_vertical"
+            android:text="手机号码："
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="259dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/yanzhengma1"
+            android:layout_alignStart="@+id/yanzhengma1"
+            android:layout_below="@+id/yanzhengma"
+            android:gravity="center_vertical"
+            android:text="设置密码："
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/yanzhengma"
+            android:layout_width="292dp"
+            android:layout_height="42dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/yanzhengma1"
+            android:textColor="#ffffff"
+            android:maxLength="6"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:inputType="number"/>
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="33dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/shezhimima"
+            android:layout_alignEnd="@+id/imageView64"
+            android:layout_alignRight="@+id/imageView64"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/password" />
+
+        <ImageView
+            android:id="@+id/imageView65"
+            android:layout_width="103dp"
+            android:layout_height="83dp"
+            android:layout_below="@+id/textView63"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView63"
+            app:srcCompat="@mipmap/disc" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="18dp"
+            android:layout_below="@+id/querenmima"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

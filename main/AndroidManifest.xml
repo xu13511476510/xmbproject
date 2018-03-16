@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bianlaoshi.new1">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="项目帮"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".l_1shouye" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".TeacherMessage" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".L_Discovery"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="L_Mine" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".X_Discovery" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name="X_Mine" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".l_8gerenziliao" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".x_6shouye1Activity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".x_13gerenziliao1" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".x_5xiangmuxiangqing1" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".l_12yaoqingxuesheng" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".l_5fabuxiangmuActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".x_14yaoqingpingjiaActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".l_10Activity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".l_xiugaixiangmuActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".a_4zhuceActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".x_11self_reviewActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".chooseStudentActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".zhaohuimimaActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".x_10review_teacherActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+        <activity android:name=".l_xiangmuchengyuanActivity" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+
+    </application>
+
+</manifest>
